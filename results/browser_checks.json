@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": [
+    "headline accuracy and macro F1 match saved output",
+    "every confusion matrix cell matches saved output",
+    "correct and mismatch filters match exact source lines",
+    "every actual/predicted combination has correct count",
+    "empty search has zero rows",
+    "emotion agreement and disagreement counts match",
+    "nonzero bars have visible width",
+    "390px mobile viewport has no document overflow",
+    "no browser JavaScript errors"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 1100
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ]
+}

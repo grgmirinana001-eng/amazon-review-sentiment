@@ -1,0 +1,5654 @@
+{
+  "mode": "binary",
+  "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+  "base_url": "http://dobolyi.com:9001/v1",
+  "temperature": 0,
+  "seed": 6418,
+  "response_format": "json_schema",
+  "prompt_sha256": "1c900b708b2158a3dd5191f41435b19fc9fcbde2fa71a310465fb71ac6a7fe0e",
+  "metrics": {
+    "n": 100,
+    "correct": 97,
+    "accuracy": 0.97,
+    "majority_baseline": 0.93,
+    "macro_f1": 0.8918918918918919,
+    "balanced_accuracy": 0.9178187403993856,
+    "classes": [
+      "NEGATIVE",
+      "POSITIVE"
+    ],
+    "matrix": [
+      [
+        6,
+        1
+      ],
+      [
+        2,
+        91
+      ]
+    ],
+    "per_class": {
+      "NEGATIVE": {
+        "support": 7,
+        "predicted": 8,
+        "precision": 0.75,
+        "recall": 0.8571428571428571,
+        "f1": 0.7999999999999999
+      },
+      "POSITIVE": {
+        "support": 93,
+        "predicted": 92,
+        "precision": 0.9891304347826086,
+        "recall": 0.978494623655914,
+        "f1": 0.9837837837837837
+      }
+    },
+    "mismatch_source_lines": [
+      18,
+      47,
+      99
+    ]
+  },
+  "rows": [
+    {
+      "rating": 5.0,
+      "title": "Great gift",
+      "text": "Having Amazon money is always good.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1549866158332,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 1,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-ab227b876690ebb3",
+        "object": "chat.completion",
+        "created": 1789485646,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 172,
+          "total_tokens": 180,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "amazon gift card",
+      "text": "Always the perfect gift.  I have never given one and had someone seem or act disappointed.  Just the opposite.  They are thrilled and excited to have a bit of a spree.  Always the perfect size and color!  Arrives in 1 day in most cases.  So it's never too late!  Lots of cards to chose from... thank you... birthday... wedding..baby..  and many that work for many occasions...",
+      "verified_purchase": false,
+      "helpful_vote": 0,
+      "timestamp": 1599875158120,
+      "asin": "B005ESMMWW",
+      "parent_asin": "B005ESMMWW",
+      "source_line": 2,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a20260c35704f035",
+        "object": "chat.completion",
+        "created": 1789485646,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 257,
+          "total_tokens": 265,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "perfect gift",
+      "text": "When you have a person who is hard to shop for.. an amazon gift card is P E R F E C T.  Man or woman...  No matter what their hobby... lifestyle.. or age.  All you have to do is pick the $.  Don't forget to mention that it is a GIFT when you check out - you will have some gift card options.  I've ordered many of these over years.  They are always received with glee.  Woo hoo!  If you're looking for a great fit for me - this is just my size!  :)  Best to all!",
+      "verified_purchase": true,
+      "helpful_vote": 27,
+      "timestamp": 1535939929239,
+      "asin": "B01K8RIM5Y",
+      "parent_asin": "B005S28ZES",
+      "source_line": 3,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a1dda3fed3540fdb",
+        "object": "chat.completion",
+        "created": 1789485646,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 291,
+          "total_tokens": 299,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Nice looking",
+      "text": "The tin is a nice touch and pretty large.  It's about 4&#34; in diameter and about 1/2&#34; thick.  I added a pretty red ribbon and it is perfect.  Who doesn't love shopping on Amazon? Arrived quickly, I have Prime... but I think they ship the gift cards out SUPER fast... like over night. In case you need it for a FAST gift.",
+      "verified_purchase": false,
+      "helpful_vote": 0,
+      "timestamp": 1418439577000,
+      "asin": "B0091JKVU0",
+      "parent_asin": "B00ADR2LV6",
+      "source_line": 4,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-905bc8c797a0e015",
+        "object": "chat.completion",
+        "created": 1789485646,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 254,
+          "total_tokens": 262,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 1.0,
+      "title": "Not $10 Gift Cards",
+      "text": "I bought this pack of Starbucks Gift cards in 2019. Ive given them to friends and I gave 2 to my daughter.<br />My daughter used one recently and it had $6.52 on the card not $10.00. She had the cashier check the balance of the other card and it had $5.32 on it! She had forgotten that she had these gift cards, so yes, 2 years later decided to use the when she found them! Do they decline in value? And then both had random amounts on them! I'm embarrassed now to have given them as gifts! Friends receiving the gift card aren't going to tell you that weren't able to cover their order with the card you gave them!!!",
+      "verified_purchase": true,
+      "helpful_vote": 2,
+      "timestamp": 1638068808115,
+      "asin": "B00FTGTM5E",
+      "parent_asin": "B00FTGTIOE",
+      "source_line": 5,
+      "sentiment": "NEGATIVE",
+      "actual": "NEGATIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-92f7fa5c09a9dbb7",
+        "object": "chat.completion",
+        "created": 1789485646,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"NEGATIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 325,
+          "total_tokens": 333,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Cute!",
+      "text": "That snowman tin is adorable",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1608661063303,
+      "asin": "B072L7GTF5",
+      "parent_asin": "B00ADR2LV6",
+      "source_line": 6,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-9102ee1b6f318b7a",
+        "object": "chat.completion",
+        "created": 1789485647,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 171,
+          "total_tokens": 179,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Easy gift",
+      "text": "Great and easy gift",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1602104097716,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 7,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-9982b892c1eb1398",
+        "object": "chat.completion",
+        "created": 1789485647,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 169,
+          "total_tokens": 177,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Great gift",
+      "text": "Super cute nice quality tin<br />Your choose amount",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1551247682370,
+      "asin": "B072P5VV4D",
+      "parent_asin": "B00ADR2LV6",
+      "source_line": 8,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-bcba15aa1e1438ed",
+        "object": "chat.completion",
+        "created": 1789485647,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 175,
+          "total_tokens": 183,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Gifts for my two granddaughters",
+      "text": "They love it !!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1675387900672,
+      "asin": "B072P5VV4D",
+      "parent_asin": "B00ADR2LV6",
+      "source_line": 9,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-87564379612a7708",
+        "object": "chat.completion",
+        "created": 1789485647,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 176,
+          "total_tokens": 184,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Great for saying “thank you” to the mail person, farrier, yard man,etc",
+      "text": "So many people<br />Make your life better so remember them!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1674305242048,
+      "asin": "B071NM2PNL",
+      "parent_asin": "B071X4ZX3X",
+      "source_line": 10,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-8453422c02edfd8e",
+        "object": "chat.completion",
+        "created": 1789485647,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 195,
+          "total_tokens": 203,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Convenient, safe, and perfect gift",
+      "text": "My grandson inlaw loves his gift cards, so it's the perfect gift for Christmas",
+      "verified_purchase": true,
+      "helpful_vote": 2,
+      "timestamp": 1573997914372,
+      "asin": "B01GKWEH64",
+      "parent_asin": "B01GKWEEQM",
+      "source_line": 11,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-97a1d882f7338907",
+        "object": "chat.completion",
+        "created": 1789485647,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 188,
+          "total_tokens": 196,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Giftcard",
+      "text": "What can you say about a gift card? Well, it was valid. It's a good gift for someone who doesn't like to cook. Arrived promptly.",
+      "verified_purchase": true,
+      "helpful_vote": 1,
+      "timestamp": 1597503033721,
+      "asin": "B084RMVP59",
+      "parent_asin": "B07YYWDPSM",
+      "source_line": 12,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-862b47ff4375a569",
+        "object": "chat.completion",
+        "created": 1789485647,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 198,
+          "total_tokens": 206,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Simple giftcard!",
+      "text": "Easy way to gift money for birthdays.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1622792110181,
+      "asin": "B07HJHK8Y5",
+      "parent_asin": "B07HJHK8Y5",
+      "source_line": 13,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-aa6dd87e5d117885",
+        "object": "chat.completion",
+        "created": 1789485647,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 174,
+          "total_tokens": 182,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Great giftcard",
+      "text": "Great gift for online shoppers!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1622787790140,
+      "asin": "B0866T1TQJ",
+      "parent_asin": "B077N4CNVJ",
+      "source_line": 14,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a0a134e681e75447",
+        "object": "chat.completion",
+        "created": 1789485647,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 172,
+          "total_tokens": 180,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Easy..",
+      "text": "Reloading is easy. Shopping is easy. Amazon is easy.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1466368648000,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 15,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-bdb6e96faf3dbad1",
+        "object": "chat.completion",
+        "created": 1789485647,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 179,
+          "total_tokens": 187,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 1.0,
+      "title": "One Star",
+      "text": "Card did not work!!!!",
+      "verified_purchase": false,
+      "helpful_vote": 0,
+      "timestamp": 1505610792650,
+      "asin": "B00X6G8WCI",
+      "parent_asin": "B00X6G8J3A",
+      "source_line": 16,
+      "sentiment": "NEGATIVE",
+      "actual": "NEGATIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-98d094838263d497",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"NEGATIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 170,
+          "total_tokens": 178,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Great Product.",
+      "text": "I bought this for a Christmas gift.The recipient really liked it.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1545086272871,
+      "asin": "B01K8RMDO0",
+      "parent_asin": "B077N4CNVJ",
+      "source_line": 17,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-baa654eb76d7d965",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 178,
+          "total_tokens": 186,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "No note attached to sent gift card",
+      "text": "What a pretty gift card presentation , the recipient loved it ! I have one complaint , I took the time and wrote a short note to the recipient of the gift card so she knew who and why the GC was being sent but the note wasn’t attached. I’ve used the option to write a note on many occasions and several times it showed up without the note . I actually had to contact her to ask if she had checked her mail knowing it had arrived .",
+      "verified_purchase": false,
+      "helpful_vote": 0,
+      "timestamp": 1588871215900,
+      "asin": "B01IE42ST4",
+      "parent_asin": "B0BT85F69N",
+      "source_line": 18,
+      "sentiment": "NEGATIVE",
+      "actual": "POSITIVE",
+      "correct": false,
+      "raw_response": {
+        "id": "chatcmpl-9dc4961267b02f1b",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"NEGATIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 262,
+          "total_tokens": 270,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Gift card",
+      "text": "Perfect! Arrived just when stated!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1560630089067,
+      "asin": "B06W5SBSL7",
+      "parent_asin": "B071X4ZX3X",
+      "source_line": 19,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-8141b7438c1b1eee",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 173,
+          "total_tokens": 181,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good",
+      "text": "Good gift card",
+      "verified_purchase": false,
+      "helpful_vote": 0,
+      "timestamp": 1652642526420,
+      "asin": "B078VSWVGY",
+      "parent_asin": "B00BXLW5QC",
+      "source_line": 20,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-bc20696e3bd3cc27",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 167,
+          "total_tokens": 175,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good Product",
+      "text": "Good Product",
+      "verified_purchase": false,
+      "helpful_vote": 0,
+      "timestamp": 1647201883803,
+      "asin": "B072F9T6VX",
+      "parent_asin": "B018F4M89S",
+      "source_line": 21,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-94b61d6bd15b9da6",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 167,
+          "total_tokens": 175,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good Product",
+      "text": "Good Product",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1643574023858,
+      "asin": "B01C9MW8Z6",
+      "parent_asin": "B00JFBLZ90",
+      "source_line": 22,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a6857a62616dcf17",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 167,
+          "total_tokens": 175,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good Product",
+      "text": "Good Product",
+      "verified_purchase": false,
+      "helpful_vote": 0,
+      "timestamp": 1625865123309,
+      "asin": "B072BQ7XSH",
+      "parent_asin": "B072BQ7XSH",
+      "source_line": 23,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a15b53496e6166bc",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 167,
+          "total_tokens": 175,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good Product",
+      "text": "Good Product",
+      "verified_purchase": false,
+      "helpful_vote": 0,
+      "timestamp": 1621794097012,
+      "asin": "B01IE42ST4",
+      "parent_asin": "B0BT85F69N",
+      "source_line": 24,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-94b61d6bd15b9da6",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 167,
+          "total_tokens": 175,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good Product",
+      "text": "Good Product",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1618607813583,
+      "asin": "B07HJD9FVV",
+      "parent_asin": "B07HJD9FVV",
+      "source_line": 25,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-94b61d6bd15b9da6",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 167,
+          "total_tokens": 175,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good product",
+      "text": "Good product",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1610319642327,
+      "asin": "B07HJHK8Y5",
+      "parent_asin": "B07HJHK8Y5",
+      "source_line": 26,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-93b1f2bfbbd79736",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 167,
+          "total_tokens": 175,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good product",
+      "text": "Good product",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1610319551349,
+      "asin": "B00BXLWD0U",
+      "parent_asin": "B00BXLWCJ2",
+      "source_line": 27,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-84fac181b240feae",
+        "object": "chat.completion",
+        "created": 1789485649,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 167,
+          "total_tokens": 175,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good Product",
+      "text": "Good Product",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1600998736261,
+      "asin": "B01MSBQB1P",
+      "parent_asin": "B01MSBQB1P",
+      "source_line": 28,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a15b53496e6166bc",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 167,
+          "total_tokens": 175,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good Product",
+      "text": "Good Product",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1594616189941,
+      "asin": "B01K8RMDO0",
+      "parent_asin": "B077N4CNVJ",
+      "source_line": 29,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a15b53496e6166bc",
+        "object": "chat.completion",
+        "created": 1789485648,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 167,
+          "total_tokens": 175,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good",
+      "text": "Good",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1594616023131,
+      "asin": "B07PFLG7VG",
+      "parent_asin": "B00VTVA1T4",
+      "source_line": 30,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-b369511c0798fd05",
+        "object": "chat.completion",
+        "created": 1789485649,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 165,
+          "total_tokens": 173,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Gift card",
+      "text": "Perfect for Christmas",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1646362028105,
+      "asin": "B07FK7L976",
+      "parent_asin": "B00ADR2LV6",
+      "source_line": 31,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-b840f87f6369a723",
+        "object": "chat.completion",
+        "created": 1789485649,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 168,
+          "total_tokens": 176,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "So easy",
+      "text": "Easy to do",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1587064572520,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 32,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-99e6490e6d120ed7",
+        "object": "chat.completion",
+        "created": 1789485649,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 168,
+          "total_tokens": 176,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 2.0,
+      "title": "Mistake",
+      "text": "Hit button by mistake n deduction from credit card on file",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1576194477554,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 33,
+      "sentiment": "NEGATIVE",
+      "actual": "NEGATIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-b8dabb5abca4d4ee",
+        "object": "chat.completion",
+        "created": 1789485649,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"NEGATIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 177,
+          "total_tokens": 185,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Great gift idea",
+      "text": "Always great to order from my home. Amazon rocks!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1607184498800,
+      "asin": "B01K8RL9C2",
+      "parent_asin": "B018F4H5DM",
+      "source_line": 34,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-9c2cba143dfc1ed9",
+        "object": "chat.completion",
+        "created": 1789485649,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 177,
+          "total_tokens": 185,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Secure",
+      "text": "So easy to use and recipients get to choose how to use it.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1617048149237,
+      "asin": "B01K8RL9C2",
+      "parent_asin": "B018F4H5DM",
+      "source_line": 35,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-94ab8310876d40d6",
+        "object": "chat.completion",
+        "created": 1789485649,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 178,
+          "total_tokens": 186,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Birthday surprise!",
+      "text": "This was a good birthday surprise!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1578591695293,
+      "asin": "B01C9MW8Z6",
+      "parent_asin": "B00JFBLZ90",
+      "source_line": 36,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-8863414b5754baff",
+        "object": "chat.completion",
+        "created": 1789485649,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 172,
+          "total_tokens": 180,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Birthday Gift",
+      "text": "Have given as Holiday, Birthday & Other Occasions remembrances. Always appreciated by the person receiving.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1661888412555,
+      "asin": "B077T9WSSN",
+      "parent_asin": "B071X4ZX3X",
+      "source_line": 37,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-840d81623c523036",
+        "object": "chat.completion",
+        "created": 1789485649,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 186,
+          "total_tokens": 194,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Fun",
+      "text": "Awesome & they work",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1547951768806,
+      "asin": "B01MSBQB1P",
+      "parent_asin": "B01MSBQB1P",
+      "source_line": 38,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-9347f828d7a320fc",
+        "object": "chat.completion",
+        "created": 1789485649,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 168,
+          "total_tokens": 176,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Reload is super easy.",
+      "text": "Really ready to reload gift cards.",
+      "verified_purchase": true,
+      "helpful_vote": 1,
+      "timestamp": 1554034169706,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 39,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-aae831bd95284084",
+        "object": "chat.completion",
+        "created": 1789485650,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 174,
+          "total_tokens": 182,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Convenience of giftabiliy.",
+      "text": "A great way to give a gift to family members in physical form. It was so convenient.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1608272055300,
+      "asin": "B071NM2PNL",
+      "parent_asin": "B071X4ZX3X",
+      "source_line": 40,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-be93f4b77f118ea4",
+        "object": "chat.completion",
+        "created": 1789485650,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 188,
+          "total_tokens": 196,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Great Gift Package",
+      "text": "Nice gift packaging for any event",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1472217049000,
+      "asin": "B014S24J16",
+      "parent_asin": "B018F4M89S",
+      "source_line": 41,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-90a06e9fbe123c5c",
+        "object": "chat.completion",
+        "created": 1789485650,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 172,
+          "total_tokens": 180,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Grest Sandwitches !!",
+      "text": "Perfect and I even used Amazon Points - was mailed right out.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1459026048000,
+      "asin": "B00CIECDEM",
+      "parent_asin": "B00BXLW5QC",
+      "source_line": 42,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-ba903d0efe384e40",
+        "object": "chat.completion",
+        "created": 1789485650,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 182,
+          "total_tokens": 190,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "GOOD PIZZA !!",
+      "text": "Perfect and I even used Amazon Points - was mailed right out.",
+      "verified_purchase": true,
+      "helpful_vote": 1,
+      "timestamp": 1459026010000,
+      "asin": "B00HLAO738",
+      "parent_asin": "B00HLAO65M",
+      "source_line": 43,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-afcd4ec5aa7bf49a",
+        "object": "chat.completion",
+        "created": 1789485650,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 180,
+          "total_tokens": 188,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "We like this Store and they stock Tons of different Items for all kinds of Pets",
+      "text": "Our cats love this place.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1449424730000,
+      "asin": "B015726JLY",
+      "parent_asin": "B00BXLVETG",
+      "source_line": 44,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a75d910aa83be3b5",
+        "object": "chat.completion",
+        "created": 1789485650,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 186,
+          "total_tokens": 194,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Money was loaded on card",
+      "text": "Was cute and the money was loaded when it arrived",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1559406477298,
+      "asin": "B076CV42TK",
+      "parent_asin": "B076CV42TK",
+      "source_line": 45,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-8ac72c44e01997b7",
+        "object": "chat.completion",
+        "created": 1789485650,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 178,
+          "total_tokens": 186,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "👍",
+      "text": "👍",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1642620213869,
+      "asin": "B07HJHK8Y5",
+      "parent_asin": "B07HJHK8Y5",
+      "source_line": 46,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-8b146d8d255d9d43",
+        "object": "chat.completion",
+        "created": 1789485650,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 169,
+          "total_tokens": 177,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Love it!!",
+      "text": "This is an online gift card nothing to show sorry🤪",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1670031712393,
+      "asin": "B086KKT3RX",
+      "parent_asin": "B086KKT3RX",
+      "source_line": 47,
+      "sentiment": "NEGATIVE",
+      "actual": "POSITIVE",
+      "correct": false,
+      "raw_response": {
+        "id": "chatcmpl-bc44cfdaaff3aa09",
+        "object": "chat.completion",
+        "created": 1789485650,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"NEGATIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 179,
+          "total_tokens": 187,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Five Stars",
+      "text": "Gift cards are always a hit.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1490602754000,
+      "asin": "B0091JKY0M",
+      "parent_asin": "B0091JKY0M",
+      "source_line": 48,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-9e71d98a1965055a",
+        "object": "chat.completion",
+        "created": 1789485650,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 172,
+          "total_tokens": 180,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "So cool you can get a free tin with the gift ...",
+      "text": "So cool you can get a free tin with the gift card and it comes in 24 hours!! Super awesome. Last year I just printed off the gift cards which looked kind of cheap even though the cards were for substantial amounts. Highly recommend.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1514399125141,
+      "asin": "B072P5VV4D",
+      "parent_asin": "B00ADR2LV6",
+      "source_line": 49,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-9b3657e1d9248453",
+        "object": "chat.completion",
+        "created": 1789485651,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 225,
+          "total_tokens": 233,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Reccomend",
+      "text": "Really easy to load",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1613752140987,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 50,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-85299b84d93c6ffd",
+        "object": "chat.completion",
+        "created": 1789485651,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 171,
+          "total_tokens": 179,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Little sister surprise",
+      "text": "Same gift as her big sister's, this little one can choose the exact thing she most desires and run to the door for three days in anticipation.  A combined birthday and Christmas present for one who knows her own mind.  Good choice!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1486682224000,
+      "asin": "B0091JKYLQ",
+      "parent_asin": "B0091JKYLQ",
+      "source_line": 51,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-98addfdebdc2c1ea",
+        "object": "chat.completion",
+        "created": 1789485651,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 215,
+          "total_tokens": 223,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 1.0,
+      "title": "The added value was great, but no more",
+      "text": "Purchasing an Amazon gift card came with an added monetary value but no more.<br /><br />A Bronx cheer for you!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1638164827641,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 52,
+      "sentiment": "NEGATIVE",
+      "actual": "NEGATIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-bbac604278ae4485",
+        "object": "chat.completion",
+        "created": 1789485651,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"NEGATIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 199,
+          "total_tokens": 207,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 4.0,
+      "title": "Perfect gift!",
+      "text": "This is near where I work and has a drive through.  Nothing better during these times to give than a gift of good food they can pick up with minimal contact. Gift cards are the way to go these days!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1604369336892,
+      "asin": "B07Q8KN5TJ",
+      "parent_asin": "B07Q8KCGYT",
+      "source_line": 53,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-94adb0539c3c0deb",
+        "object": "chat.completion",
+        "created": 1789485651,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 209,
+          "total_tokens": 217,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 4.0,
+      "title": "Great staff appreciation gift!",
+      "text": "What better gift during these times than one to treat yourself.  This is a great gift I gave out to my staff and even those who don't read liked the idea of being able to listen to the audiobooks as well as there being content and other media through Audible.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1604369109976,
+      "asin": "B07Y5YJK66",
+      "parent_asin": "B07Y5YJK66",
+      "source_line": 54,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-af056d1ce431031e",
+        "object": "chat.completion",
+        "created": 1789485651,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 224,
+          "total_tokens": 232,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Cute cute cute!",
+      "text": "I love the tin! The gift cards can be ordered on different amounts.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1527712711389,
+      "asin": "B01C9MW8Z6",
+      "parent_asin": "B00JFBLZ90",
+      "source_line": 55,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a5a3268cf1e3338f",
+        "object": "chat.completion",
+        "created": 1789485651,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 182,
+          "total_tokens": 190,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Five Stars",
+      "text": "Simple and easy.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1513451925880,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 56,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-ae5b48afb2242d25",
+        "object": "chat.completion",
+        "created": 1789485651,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 169,
+          "total_tokens": 177,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "As described.",
+      "text": "Being able to reload the gift card is a time saver.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1643240290899,
+      "asin": "B086KKT3RX",
+      "parent_asin": "B086KKT3RX",
+      "source_line": 57,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a060e9e4ece0e5eb",
+        "object": "chat.completion",
+        "created": 1789485651,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 177,
+          "total_tokens": 185,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Perfect gift for any occasion. Let them pick out what they love!",
+      "text": "I mean really, who wouldn't LOVE this?!?  Wonderful gift for any occasion.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1496718858000,
+      "asin": "B01MDLOM4V",
+      "parent_asin": "B01B3DYSF0",
+      "source_line": 58,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-991350cdabd5476a",
+        "object": "chat.completion",
+        "created": 1789485651,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 194,
+          "total_tokens": 202,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "12 year old daughter loved this gift!",
+      "text": "Perfect gift for your kids!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1491786205000,
+      "asin": "B005ESMHN6",
+      "parent_asin": "B005ESMHN6",
+      "source_line": 59,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-918a8fc2bd5a644d",
+        "object": "chat.completion",
+        "created": 1789485651,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 177,
+          "total_tokens": 185,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Easy to send to an Amazon shopper",
+      "text": "This is a simple gift to friends or family. For me it was easy to setup. Took ok only about 30 seconds. I also redeem Visa gifts by giving the gift card to myself. I like there isnt a fee. I do want Amazon to make some cooler cards with my animation when a receiver gets it.",
+      "verified_purchase": true,
+      "helpful_vote": 1,
+      "timestamp": 1560933495865,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 60,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-987baaa8980a7455",
+        "object": "chat.completion",
+        "created": 1789485652,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 235,
+          "total_tokens": 243,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Rec'd promo from Amazon when reloading gift card.",
+      "text": "Bonus, rec'd a promo from Amazon for reloading gift card.  Yeah.<br /><br />Gift card was posted to my account quickly.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1571823522128,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 61,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-aced068004e9a84d",
+        "object": "chat.completion",
+        "created": 1789485652,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 201,
+          "total_tokens": 209,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Saves a Little Over time.",
+      "text": "Nice way to save a few bucks overtime by reloading your own gift card.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1558233886561,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 62,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a706516f1d3760a9",
+        "object": "chat.completion",
+        "created": 1789485652,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 184,
+          "total_tokens": 192,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "What a great company",
+      "text": "Who wouldn't want an Amazon gift card?  The box foretold the contents, lol.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1484281260000,
+      "asin": "B005ESMF5G",
+      "parent_asin": "B005ESMF5G",
+      "source_line": 63,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-8153523488a91990",
+        "object": "chat.completion",
+        "created": 1789485652,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 187,
+          "total_tokens": 195,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 1.0,
+      "title": "A problem to use at drive thru's",
+      "text": "I only used the $50 card one time at Burger King. It was difficult to use. Must be run as credit, not as gift card. No remaining balance is given at the end of the transaction. And although it's on me, I misplaced or lost this card after only spending about $6 of it. I was hoping that the seller could provide me with the full card number so that I could at least use it online for other purchases. They failed to respond. I have the receipt from BK, but it only shows the last 4 numbers. There isn't a way of contacting happy cards customer service online that I could figure out. I wish I'd just stuck with credit cards. A lot safer.",
+      "verified_purchase": true,
+      "helpful_vote": 4,
+      "timestamp": 1615898825149,
+      "asin": "B07RN957Q8",
+      "parent_asin": "B07JMV25V6",
+      "source_line": 64,
+      "sentiment": "NEGATIVE",
+      "actual": "NEGATIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a6669af1ab5d2335",
+        "object": "chat.completion",
+        "created": 1789485652,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"NEGATIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 317,
+          "total_tokens": 325,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "A gift card does make a great gift for a tweenager.",
+      "text": "We all know the kid who wants nothing. Or actually wants everything but nothing is good enough. YES,YES,the secret weapon. A AMAZON GIFT CARD!!  You pulled it off. You showed your love and you are the best and greatest. Happy Birthday to just because,You are the BEST!!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1667152661548,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 65,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-90c4917d752cfa2b",
+        "object": "chat.completion",
+        "created": 1789485652,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 237,
+          "total_tokens": 245,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Nice to have",
+      "text": "This comes in  very handy, and makes the guilt less",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1501709478479,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 66,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-bf93c7de9691fd7a",
+        "object": "chat.completion",
+        "created": 1789485652,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 178,
+          "total_tokens": 186,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Excellent Gift",
+      "text": "Who would not like an Amazon Gift Card?  Makes everyone I give them, happy!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1611444311497,
+      "asin": "B071NM2PNL",
+      "parent_asin": "B071X4ZX3X",
+      "source_line": 67,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-b34c1e097ff29b02",
+        "object": "chat.completion",
+        "created": 1789485652,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 183,
+          "total_tokens": 191,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Yay so easy!",
+      "text": "So easy! No scraping!",
+      "verified_purchase": true,
+      "helpful_vote": 1,
+      "timestamp": 1494974249000,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 68,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-9d8d7c081c4a2a9e",
+        "object": "chat.completion",
+        "created": 1789485652,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 173,
+          "total_tokens": 181,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": ":)",
+      "text": "easy to use",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1653192933371,
+      "asin": "B086KKT3RX",
+      "parent_asin": "B086KKT3RX",
+      "source_line": 69,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-bb6f30c24a0762a8",
+        "object": "chat.completion",
+        "created": 1789485652,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 166,
+          "total_tokens": 174,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "10/10",
+      "text": "works great",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1582923781652,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 70,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-92c9e4703ad5b684",
+        "object": "chat.completion",
+        "created": 1789485653,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 170,
+          "total_tokens": 178,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Perfect for a birthday 🎂",
+      "text": "Another nice gift box from Amazon. With the world the way it is now I had to send a gift rather than going to a party. And Amazon has a good selection of gift boxes and fast shipping so my nephew was happy when he received the card in the mail.",
+      "verified_purchase": false,
+      "helpful_vote": 1,
+      "timestamp": 1589293286428,
+      "asin": "B06ZY43PDR",
+      "parent_asin": "B071LMFYTG",
+      "source_line": 71,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-886f0db39ff20ad1",
+        "object": "chat.completion",
+        "created": 1789485653,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 224,
+          "total_tokens": 232,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Perfect!",
+      "text": "Bought this for a gift and was very happy it shipped quickly and they received it just in time! Amazon is awesome! 🤩",
+      "verified_purchase": false,
+      "helpful_vote": 0,
+      "timestamp": 1586487627890,
+      "asin": "B07FKKBFHS",
+      "parent_asin": "B07FKKBFHS",
+      "source_line": 72,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-b87656778424d835",
+        "object": "chat.completion",
+        "created": 1789485653,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 192,
+          "total_tokens": 200,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Gift box nice!",
+      "text": "Love the gift box. So much j NB icee than just handing a gift card to the grandkids.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1621545773576,
+      "asin": "B01K8RIM5Y",
+      "parent_asin": "B005S28ZES",
+      "source_line": 73,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-bfe007ba51e54417",
+        "object": "chat.completion",
+        "created": 1789485653,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 188,
+          "total_tokens": 196,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "It was soooo easy",
+      "text": "It was a nice way to give a present",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1672080764246,
+      "asin": "B086KKT3RX",
+      "parent_asin": "B086KKT3RX",
+      "source_line": 74,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-b4fb7f5af68757a1",
+        "object": "chat.completion",
+        "created": 1789485653,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 177,
+          "total_tokens": 185,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "great",
+      "text": "great buy",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1477509546000,
+      "asin": "B005ESMGZU",
+      "parent_asin": "B005ESMGZU",
+      "source_line": 75,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-852b2301926c1713",
+        "object": "chat.completion",
+        "created": 1789485653,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 166,
+          "total_tokens": 174,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Amazon Thinks of Everything!",
+      "text": "GREAT idea!  I was so happy to have these on hand for the Holidays!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1420299448000,
+      "asin": "B00IT0NO10",
+      "parent_asin": "B00IT0NO10",
+      "source_line": 76,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-9d009973cd96452e",
+        "object": "chat.completion",
+        "created": 1789485653,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 186,
+          "total_tokens": 194,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Amazon lover giftee?  Buy it!",
+      "text": "So gift card for certain sum.  No service fee.  Lively metal gift box - yes..... I said metal.  What is not to love about this???!<br /><br />Well done Amazon.  Well done.",
+      "verified_purchase": true,
+      "helpful_vote": 8,
+      "timestamp": 1668525273215,
+      "asin": "B0866QM41K",
+      "parent_asin": "B00ADR2LV6",
+      "source_line": 77,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-b8343456a0371b6c",
+        "object": "chat.completion",
+        "created": 1789485653,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 219,
+          "total_tokens": 227,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Timing",
+      "text": "Great timing.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1595375222310,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 78,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-8e78880c9e49c7ed",
+        "object": "chat.completion",
+        "created": 1789485653,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 167,
+          "total_tokens": 175,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Was easy to do",
+      "text": "Easy to use",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1663344696022,
+      "asin": "B086KKT3RX",
+      "parent_asin": "B086KKT3RX",
+      "source_line": 79,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a72fd72427263c63",
+        "object": "chat.completion",
+        "created": 1789485653,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 170,
+          "total_tokens": 178,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "PENGUINS",
+      "text": "So so cute!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1562018433133,
+      "asin": "B07FKK8SFR",
+      "parent_asin": "B07FKK8SFR",
+      "source_line": 80,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-986232581a5d49b5",
+        "object": "chat.completion",
+        "created": 1789485654,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 171,
+          "total_tokens": 179,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Believe this is the best gift to give !",
+      "text": "The recipient can choose what they want so the giver has less chance of a mistake.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1641851447007,
+      "asin": "B0866QM41K",
+      "parent_asin": "B00ADR2LV6",
+      "source_line": 81,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-908d33390bc16897",
+        "object": "chat.completion",
+        "created": 1789485654,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 190,
+          "total_tokens": 198,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "convenient",
+      "text": "A great and convenient gift idea-price is right too!",
+      "verified_purchase": false,
+      "helpful_vote": 0,
+      "timestamp": 1543687172883,
+      "asin": "B01MSBQB1P",
+      "parent_asin": "B01MSBQB1P",
+      "source_line": 82,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-b42ca566d138ddc4",
+        "object": "chat.completion",
+        "created": 1789485654,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 176,
+          "total_tokens": 184,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Five Stars",
+      "text": "The gift card came in a pretty box.<br />Thanks Amozan.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1433222082000,
+      "asin": "B005ESMM04",
+      "parent_asin": "B005ESMM04",
+      "source_line": 83,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-ab80f0f01ad313b8",
+        "object": "chat.completion",
+        "created": 1789485654,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 181,
+          "total_tokens": 189,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Best gift for someone you don’t know what to get",
+      "text": "This was for a gift",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1554486530782,
+      "asin": "B07641P3WL",
+      "parent_asin": "B07641P3WL",
+      "source_line": 84,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a0280855d1d507e2",
+        "object": "chat.completion",
+        "created": 1789485654,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 179,
+          "total_tokens": 187,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Great value",
+      "text": "Made my shopping much better good value",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1545524073920,
+      "asin": "B07674CBVT",
+      "parent_asin": "B00OV98120",
+      "source_line": 85,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a125fe0362cc1123",
+        "object": "chat.completion",
+        "created": 1789485654,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 172,
+          "total_tokens": 180,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Sweet gift!",
+      "text": "I sent this to my brother and he couldn't stop talking about it. This boxes puts a little more nice into a gift. Very pretty!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1646497576623,
+      "asin": "B07DDC8FJM",
+      "parent_asin": "B073VBZM8J",
+      "source_line": 86,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-8321a1433a0e70fa",
+        "object": "chat.completion",
+        "created": 1789485654,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 194,
+          "total_tokens": 202,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Amazing",
+      "text": "It can be used for a variety of things.",
+      "verified_purchase": true,
+      "helpful_vote": 1,
+      "timestamp": 1665847374516,
+      "asin": "B07HJD9FVV",
+      "parent_asin": "B07HJD9FVV",
+      "source_line": 87,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-adbbfbbe87fe4115",
+        "object": "chat.completion",
+        "created": 1789485654,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 174,
+          "total_tokens": 182,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Great Holder",
+      "text": "Great holder for gift cards",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1676604832230,
+      "asin": "B07FK7L976",
+      "parent_asin": "B00ADR2LV6",
+      "source_line": 88,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-bedf18266800d9dc",
+        "object": "chat.completion",
+        "created": 1789485654,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 170,
+          "total_tokens": 178,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Gift card",
+      "text": "Makes these so easy for any holiday and especially stops buying something people do not like",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1575672071594,
+      "asin": "B07HJHK8Y5",
+      "parent_asin": "B07HJHK8Y5",
+      "source_line": 89,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-b486ffef13263f15",
+        "object": "chat.completion",
+        "created": 1789485654,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 181,
+          "total_tokens": 189,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Starbuck gift card",
+      "text": "My friend like the gift card like the sweater for holiday card",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1515887714780,
+      "asin": "B076ZTSX5V",
+      "parent_asin": "B00BXLW2AQ",
+      "source_line": 90,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-bee70ca6b3cea3cb",
+        "object": "chat.completion",
+        "created": 1789485654,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 180,
+          "total_tokens": 188,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good litte thank-you gifts",
+      "text": "I'm happy they did not cost me more than their face value to buy. I gave them out as a nice thank you to those who helped me with small things around my house. I sent them in the mail as a surprise, knowing money or gifts was not necessary. I recommend them.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1653086469676,
+      "asin": "B00FTGTM5E",
+      "parent_asin": "B00FTGTIOE",
+      "source_line": 91,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-b054adc8f9d6273f",
+        "object": "chat.completion",
+        "created": 1789485655,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 228,
+          "total_tokens": 236,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 3.0,
+      "title": "Okay as a gift",
+      "text": "After I bought several I realized I could have sent \"gift\" money via text without the fees or wait.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1641431818335,
+      "asin": "B07GH6WX29",
+      "parent_asin": "B07GH6WX29",
+      "source_line": 92,
+      "sentiment": "NEGATIVE",
+      "actual": "NEGATIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-8fdc8aec640b323c",
+        "object": "chat.completion",
+        "created": 1789485655,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"NEGATIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 189,
+          "total_tokens": 197,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Good gift",
+      "text": "Those who already have everything, they can buy an audible book, an old rerun of a favorite movie, some little thing they may want, or whatever as a gift for any occasion. I recommend.",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1629478719766,
+      "asin": "B07FMJVVKW",
+      "parent_asin": "B077N4CNVJ",
+      "source_line": 93,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a7e5869681875bfa",
+        "object": "chat.completion",
+        "created": 1789485655,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 206,
+          "total_tokens": 214,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "So convenient.",
+      "text": "Arrived on time, in perfect shape, and best of all the person receiving the gift can buy whatever they want. One size fits all!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1617599581065,
+      "asin": "B07HJHK8Y5",
+      "parent_asin": "B07HJHK8Y5",
+      "source_line": 94,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-902c4e2a683d010c",
+        "object": "chat.completion",
+        "created": 1789485655,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 194,
+          "total_tokens": 202,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Just what was ordered.",
+      "text": "Made holiday shopping easy!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1577392181310,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 95,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-ba4a53f246d2d07e",
+        "object": "chat.completion",
+        "created": 1789485655,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 172,
+          "total_tokens": 180,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Can Do It From Home",
+      "text": "Usually I either receive an Amazon gift card as a birthday and/or Christmas gift or I purchase them at a store. Then it's very easy to add the amount to my gift card balance using my cell phone. Well I was stuck inside for several days due to a blizzard and I bought quite a few books then due to a travel ban I could not go to the store to purchase a gift card.<br />So after checking my Gift Card Balance I saw that I had overindulged and it needed to be topped up. One of the options under Manage Your Balance was to Reload Your Balance. I had never used this option but decided to try it. It was so easy to do and I didn't have to leave the comfort of my home. I will be using it again in the future.",
+      "verified_purchase": true,
+      "helpful_vote": 17,
+      "timestamp": 1672950892238,
+      "asin": "B086KKT3RX",
+      "parent_asin": "B086KKT3RX",
+      "source_line": 96,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a4b2057eeacb104b",
+        "object": "chat.completion",
+        "created": 1789485655,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 330,
+          "total_tokens": 338,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Love it!",
+      "text": "Love my card!!",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1515196533758,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 97,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a6924e5ec6c74f54",
+        "object": "chat.completion",
+        "created": 1789485655,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 169,
+          "total_tokens": 177,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Easy to use",
+      "text": "It’s easy to use and very convenient. I would definitely consider refill more in the future",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1640899215732,
+      "asin": "B086KKT3RX",
+      "parent_asin": "B086KKT3RX",
+      "source_line": 98,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-8bf2f881e814554d",
+        "object": "chat.completion",
+        "created": 1789485655,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 184,
+          "total_tokens": 192,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 3.0,
+      "title": "Easy to use",
+      "text": "Very easy to use. I wish I knew about it earlier",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1593396124170,
+      "asin": "B00IX1I3G6",
+      "parent_asin": "B00IX1I3G6",
+      "source_line": 99,
+      "sentiment": "POSITIVE",
+      "actual": "NEGATIVE",
+      "correct": false,
+      "raw_response": {
+        "id": "chatcmpl-a1f0fd05909eca8b",
+        "object": "chat.completion",
+        "created": 1789485655,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 178,
+          "total_tokens": 186,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "rating": 5.0,
+      "title": "Perfect gift sent I a lovely container",
+      "text": "Sent in a lovely container",
+      "verified_purchase": true,
+      "helpful_vote": 0,
+      "timestamp": 1637786399508,
+      "asin": "B01K8RJDEI",
+      "parent_asin": "B00ADR2LV6",
+      "source_line": 100,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-be2c1e36daa34b5f",
+        "object": "chat.completion",
+        "created": 1789485656,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 175,
+          "total_tokens": 183,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    }
+  ]
+}

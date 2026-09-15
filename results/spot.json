@@ -1,0 +1,152 @@
+{
+  "mode": "spot",
+  "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+  "base_url": "http://dobolyi.com:9001/v1",
+  "temperature": 0,
+  "seed": 6418,
+  "response_format": "json_schema",
+  "prompt_sha256": "1c900b708b2158a3dd5191f41435b19fc9fcbde2fa71a310465fb71ac6a7fe0e",
+  "metrics": {
+    "n": 2,
+    "correct": 2,
+    "accuracy": 1.0,
+    "majority_baseline": 0.5,
+    "macro_f1": 1.0,
+    "balanced_accuracy": 1.0,
+    "classes": [
+      "NEGATIVE",
+      "POSITIVE"
+    ],
+    "matrix": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "per_class": {
+      "NEGATIVE": {
+        "support": 1,
+        "predicted": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "POSITIVE": {
+        "support": 1,
+        "predicted": 1,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "mismatch_source_lines": []
+  },
+  "rows": [
+    {
+      "source_line": -1,
+      "title": "Fantastic",
+      "text": "Exactly what I wanted. Easy to use and I love it.",
+      "rating": 5,
+      "sentiment": "POSITIVE",
+      "actual": "POSITIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a7f6ad726389bc1a",
+        "object": "chat.completion",
+        "created": 1789485912,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"POSITIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 177,
+          "total_tokens": 185,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    },
+    {
+      "source_line": -2,
+      "title": "Useless",
+      "text": "It did not work. Very disappointed and I want a refund.",
+      "rating": 1,
+      "sentiment": "NEGATIVE",
+      "actual": "NEGATIVE",
+      "correct": true,
+      "raw_response": {
+        "id": "chatcmpl-a7e2389b027c29d2",
+        "object": "chat.completion",
+        "created": 1789485912,
+        "model": "cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"sentiment\":\"NEGATIVE\"}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": null
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "system_fingerprint": "vllm-0.29.0-bbc41136",
+        "usage": {
+          "prompt_tokens": 178,
+          "total_tokens": 186,
+          "completion_tokens": 8,
+          "prompt_tokens_details": null,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0
+          }
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null
+      }
+    }
+  ]
+}
