@@ -1,0 +1,6 @@
+{
+  "name": "amazon-review-sentiment",
+  "private": true,
+  "scripts": { "verify:browser": "node browser_verify.cjs" },
+  "devDependencies": { "playwright": "1.62.1" }
+}
